@@ -11,14 +11,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 </head>
 <body style="background-color: thistle;">
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(148, 8, 148, 0.993);">
-    <a class="navbar-brand text-light" href="Home.html" style="font-family:cursive">M.M.</a>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(148, 8, 148, 0.993); position: fixed;z-index: 3;width: 100%;">
+    <a class="navbar-brand text-light" href="Home.html" style="font-family:cursive"><i>M.M.</i></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
  
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-4" style="margin-left:60%">
+      <ul class="navbar-nav mr-auto" style="margin-left: 26%;">
         <li class="nav-item active">
           <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
@@ -42,7 +42,7 @@
 <div class="row justify-content-center">
  
 <div class="container m-1">
-  <div class="row">
+  <div class="row m-3">
       <div class="col-lg-8">
         <div class="jumbotron" style="background-color: thistle;;">
           <h5 class="display-4" style="color: #4096c4;">Welcome, <br><b>I'm Merna Makram</b></h5>
@@ -52,7 +52,7 @@
           <a class="btn btn-primary btn-lg" href="Electrical.Engineer-Merna CV .pdf" target="_blank" role="button">CV Download</a>
         </div>
       </div>
-      <div class="col-lg-4">
+      <div class="col-lg-4 ">
         <img src="Home.jpeg" alt="My image" style="height: 450px;" class="rounded-circle m-5">
       </div>
   </div>
@@ -66,13 +66,14 @@
     
 </div> 
 
-    <div class="container-fluid">
+<div class="row justify-content-center">
+    <div class="container m-1">
       <div class="row">
         <div class="col-lg-4">
           <div class="card" style="width: 18rem;border-color: #ec55ec;border-radius: 30px;">
             <img src="Education-bro.png" class="card-img-top" alt="Education">
             <div class="card-body">
-              <h5 class="card-title">Education</h5>
+              <h5 class="card-title"style="color: rgb(141, 22, 141);"><u>Education</u></h5>
               <p class="card-text">Electrical Engineering with the ability to design Electrical systems by using AutoCAD & Dialux</p>
        
             </div>
@@ -83,7 +84,7 @@
           <div class="card" style="width: 18rem;border-color: #ec55ec;border-radius: 30px;">
             <img src="Typing-bro.png" class="card-img-top" alt="Experience">
             <div class="card-body">
-              <h5 class="card-title">Experience</h5>
+              <h5 class="card-title" style="color: rgb(141, 22, 141);"><u>Experience</u></h5>
               <p class="card-text">Sales Engineering with the ability to manage sales leads by using a CRM system</p>
          
             </div>
@@ -94,7 +95,7 @@
           <div class="card" style="width: 18rem;border-color: #ec55ec;border-radius: 30px;">
             <img src="Book lover-bro.png" class="card-img-top" alt="Hobbies">
             <div class="card-body">
-              <h5 class="card-title">Hobbies</h5>
+              <h5 class="card-title"style="color: rgb(141, 22, 141);"><u>Hobbies</u></h5>
               <p class="card-text">Reading books such as Classic, Fantasy, Detective, Mystery, Action & Adventure</p>
         
             </div>
@@ -105,6 +106,8 @@
 
     </div>
 
+</div>
+
 <script>
   function myFunction(){
     alert("merna.makram@gmail.com");
@@ -112,28 +115,27 @@
   function myMobile(){
     alert("01277400308")
   }
-</script>
 
-    <footer class=" text-center text-white m-3" >
+</script>
+    <footer class=" text-center text-white m-3">
      
-      <div class="container ">
+      <div class="container">
   
-        <section class="mb-4">
+        <section class="mb-4" >
 
           <a
           class="btn m-1"
 
-          href="https://www.bing.com/maps?osid=7f03b703-6549-44a9-bba6-38093cb17300&cp=30.095988~31.280344&lvl=14&v=2&sV=2&form=S00027" target="_blank"
+          href="https://www.google.com/maps/@30.1012402,31.3145867,16z" target="_blank"
           role="button"
-          ><button><i class="fa fa-map-marker" style="font-size:44px;color:rgb(49, 156, 199)"></i></button></a>
+          ><i class="fa fa-map-marker" style="font-size:44px;color:rgb(160, 25, 55);border-radius: 10px;padding-top: 30px;"></i></a>
     
           <a
             class="btn m-1"
   
             href="#" target="_blank"
             role="button"
-            ><button onclick="myFunction()"><i class="fa fa-envelope" style="font-size:44px;color:rgb(150, 46, 46)"></i></button></i
-          ></a>
+            ><i onclick="myFunction()" class="fa fa-envelope" style="font-size:44px;color:rgb(67, 86, 196);padding-top: 30px;"></i></a>
     
         
           <a
@@ -141,7 +143,7 @@
          
             href="#"
             role="button"
-            ><button onclick="myMobile()"><i class="fa fa-mobile-phone" style="font-size:44px"></i></button>
+            ><i onclick="myMobile()" class="fa fa-mobile-phone" style="font-size:44px;padding-top: 30px;color: rgb(179, 73, 3);"></i>
           </a>
     
        
@@ -149,14 +151,14 @@
             class="btn  m-1"
             href="https://www.linkedin.com/in/merna-makram-277264167/"
             role="button" target="_blank"
-            ><button><i class="fa fa-linkedin-square" style="font-size:44px;color: rgb(9, 9, 121);"></i></button></a>
+            ><i class="fa fa-linkedin-square" style="font-size:44px;color: rgb(9, 9, 121);padding-top: 30px;"></i></a>
   
             <a
             class="btn m-1"
        
             href="#" target="_blank"
             role="button"
-            ><button onclick="myMobile()"><i class="fa fa-whatsapp" style="font-size:44px;color:green"></i></button>
+            ><i onclick="myMobile()" class="fa fa-whatsapp" style="font-size:44px;color:green;padding-top: 30px;"></i>
           </a>
       
         </section>
@@ -164,7 +166,7 @@
       </div>
   
       <div class="text-center " style="background-color: rgba(148, 8, 148, 0.993);">
-        © 2022 Copyright: <a href="https://merna1995.github.io/">Merna Makram</a> 
+        © 2022 Copyright: <a href="https://merna1995.github.io/" style="color: white;"><u>Merna Makram</u></a> 
   
       </div>
     
