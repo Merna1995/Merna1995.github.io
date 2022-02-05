@@ -11,14 +11,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
 </head>
 <body style="background-color: thistle;">
-  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(148, 8, 148, 0.993)">
-    <a class="navbar-brand text-light" href="Home.html" style="font-family: cursive;">M.M.</a>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(148, 8, 148, 0.993); position: fixed;z-index: 3;width: 100%;">
+    <a class="navbar-brand text-light" href="Home.html" style="font-family: cursive;"><i>M.M.</i></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
  
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav mr-auto"style="margin-left: 26%;">
         <li class="nav-item active">
           <a class="nav-link text-light" href="Home.html" target="_blank">Home</a>
         </li>
@@ -39,10 +39,10 @@
     </div>
   </nav>
 
-
+<div class="container-fluid"style="padding: 5%;">
 <div class="row">
   <div class="col-lg-8">
-  <div id="carouselExampleCaptions" class="carousel slide m-1" data-ride="carousel" >
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" >
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -50,24 +50,25 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="Website setup-amico.png" class="d-block w-50" alt="photo1">
-        <div class="carousel-caption d-none d-md-block">
-          <h4 style="color:rgb(138, 6, 105);">Frontend Developer</h4>
-          <p style="color: black;">Web Design using HTML, CSS, bootstrap4 & JS</p>
+        <img src="Website setup-amico.png" class="d-block w-50 " alt="photo1">
+        <div class="carousel-caption d-none d-md-block"style="display: flex !important;">
+         
+         
+          <h4 style="color:rgb(138, 6, 105);padding-left:100px ;">Frontend Developer</h4>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="Taking notes-bro.png" class="d-block w-50" alt="photo2">
-        <div class="carousel-caption d-none d-md-block">
-          <h4 style="color: rgb(138, 6, 105);">Electrical Engineer</h4>
-          <p style="color: black;">Electrical systems design using AutoCAD & Dialux</p>
+        <img src="Taking notes-bro.png" class="d-block w-50 " alt="photo2">
+        <div class="carousel-caption d-none d-md-block"style="display: flex !important;" >
+  
+          <h4 style="color: rgb(138, 6, 105);padding-left:150px ;">Electrical Engineer</h4><br>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="Emails-rafiki.png" class=" w-50" alt="photo3">
-        <div class="carousel-caption d-none d-md-block">
-          <h4 style="color: rgb(138, 6, 105);">Sales Engineer</h4>
-          <p style="color: black;">Manage sales leads using CRM system</p>
+        <img src="Emails-rafiki.png" class="d-block w-50" alt="photo3">
+        <div class="carousel-caption d-none d-md-block"style="display: flex !important;">
+          
+          <h4 style="color: rgb(138, 6, 105);padding-left:100px ;">Sales Engineer</h4>
         </div>
       </div>
     </div>
@@ -82,9 +83,10 @@
   </div>
 </div>
 
-<div class="col-lg-4">
+<div class="col-lg-4 ">
   <img src="My photo.jpeg" alt="My image" style="height: 450px; border-style: solid;border-radius: 30px;border-color: rgb(218, 47, 203);" class="m-3">
   
+</div>
 </div>
 </div>
 </div>
@@ -97,9 +99,10 @@
     <div class="card mb-4" style="width: 18rem;border-color: #ec55ec;border-radius: 30px;">
       <img src="Graduation-rafiki.png" class="card-img-top" alt="Education">
       <div class="card-body">
-        <h6 class="card-text">(2013-2018):HELWAN University<br>Bachelor's degree of Electrical Engineering, Power Engineering Division
-         </h6>
-         <p>Grade: Good <br> Project: Excellent (Distribution of Electricity) </p>
+        <h6 class="card-text"style="color: rgb(185, 20, 163);"><b><u>Education:</u></b></h6>
+        <h6 class="card-text" ><b>(2013-2018): HELWAN University</b> </h6>
+        Bachelor's degree of Electrical Engineering, Power Engineering Division
+         <b>Grade:</b> <span style="color: red;"><b>Good</b></span> <br> <b>Project: </b><span style="color: red;"><b>Excellent</b></span> <br>(Distribution of Electricity) 
       </div>
     </div>
    </div>
@@ -108,9 +111,10 @@
     <div class="card mb-4" style="width: 18rem;border-color: #ec55ec;border-radius: 30px;">
       <img src="Work in progress-bro.png" class="card-img-top" alt="Experience">
       <div class="card-body">
-        <h6 class="card-text">(2019-2020):Kimans Inc.</h6>
+        <h6 class="card-text"style="color: rgb(185, 20, 163);"><b><u>Experience:</u></b></h6>
+        <h6 class="card-text"><b>(2019-2020)Kimans Inc.</b></h6>
          <p>Working as Technical Sales Engineer </p>
-         <h6 class="card-text">(2018-2019):Elfahd Construction</h6>
+         <h6 class="card-text"><b>(2018-2019)ElFahd Construction</b> </h6>
          <p>Working as Electrical Engineer </p>
       </div>
    </div>
@@ -126,13 +130,13 @@
        <div class="card mb-4" style="width: 18rem;border-color: #ec55ec;border-radius: 30px;">
          <img src="Online learning-amico.png" class="card-img-top" alt="Courses">
          <div class="card-body">
-           <h6 class="card-text">(2021):NTI</h6>
-            <p>CCNA & CCNP</p>
-            <h6 class="card-text">(2021):AUC</h6>
+          <h6 class="card-text"style="color: rgb(185, 20, 163);"><b><u>Courses:</u></b></h6>
+           <h6 class="card-text"><b>(2021) NTI: </b> </h6><p>CCNA & CCNP </p>
+            <h6 class="card-text"><b>(2021) AUC:</b></h6>
             <p>Sales Management diploma</p>
-            <h6 class="card-text">(2018):DON BOSCO</h6>
+            <h6 class="card-text"><b>(2018) DON BOSCO:</b></h6>
             <p>Classic Control</p>
-            <h6 class="card-text">(2017):ISI Academy</h6>
+            <h6 class="card-text"><b>(2017) ISI Academy:</b></h6>
             <p>Electrical Distribution Course </p>
          </div>
        </div>
@@ -142,21 +146,21 @@
        <div class="card mb-4" style="width: 18rem;border-color: #ec55ec;border-radius: 30px;">
          <img src="Learning languages-bro.png" class="card-img-top" alt="Language">
          <div class="card-body">
-           <h6 class="card-text">Language:</h6>
-            <p>Arabic: Mother Tongue
+           <h6 class="card-text"style="color: rgb(185, 20, 163);"><b><u>Language:</u></b></h6>
+            <p><b>Arabic:</b> Mother Tongue
               <div class="progress">
                 <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              English: Good verbal and written
+              <b>English:</b> Good verbal and written
               <div class="progress">
                 <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
               </div> 
-              German: A1, A2
-   
+              <b>German:</b> A1, A2
               <div class="progress">
                 <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
               </div></p>
-              <h6 class="card-text">Computer Skills:</h6>
+              <hr>
+              <h6 class="card-text"style="color: rgb(185, 20, 163);"><b><u>Computer Skills:</u></b></h6>
               <p> Microsoft Office ,C++, MATLAB, Video Maker & Photoshop</p>
        
              
@@ -207,27 +211,27 @@
         function myMobile(){
           alert("01277400308")
         }
+      
       </script>
-          <footer class=" text-center text-white m-3" >
+          <footer class=" text-center text-white m-3">
            
-            <div class="container ">
+            <div class="container">
         
-              <section class="mb-4">
+              <section class="mb-4" >
       
                 <a
                 class="btn m-1"
       
-                href="https://www.bing.com/maps?osid=7f03b703-6549-44a9-bba6-38093cb17300&cp=30.095988~31.280344&lvl=14&v=2&sV=2&form=S00027" target="_blank"
+                href="https://www.google.com/maps/@30.1012402,31.3145867,16z" target="_blank"
                 role="button"
-                ><button><i class="fa fa-map-marker" style="font-size:44px;color:rgb(49, 156, 199)"></i></button></a>
+                ><i class="fa fa-map-marker" style="font-size:44px;color:rgb(160, 25, 55);border-radius: 10px;padding-top: 30px;"></i></a>
           
                 <a
                   class="btn m-1"
         
                   href="#" target="_blank"
                   role="button"
-                  ><button onclick="myFunction()"><i class="fa fa-envelope" style="font-size:44px;color:rgb(150, 46, 46)"></i></button></i
-                ></a>
+                  ><i onclick="myFunction()" class="fa fa-envelope" style="font-size:44px;color:rgb(67, 86, 196);padding-top: 30px;"></i></a>
           
               
                 <a
@@ -235,7 +239,7 @@
                
                   href="#"
                   role="button"
-                  ><button onclick="myMobile()"><i class="fa fa-mobile-phone" style="font-size:44px"></i></button>
+                  ><i onclick="myMobile()" class="fa fa-mobile-phone" style="font-size:44px;padding-top: 30px;color: rgb(179, 73, 3);"></i>
                 </a>
           
              
@@ -243,14 +247,14 @@
                   class="btn  m-1"
                   href="https://www.linkedin.com/in/merna-makram-277264167/"
                   role="button" target="_blank"
-                  ><button><i class="fa fa-linkedin-square" style="font-size:44px;color: rgb(9, 9, 121);"></i></button></a>
+                  ><i class="fa fa-linkedin-square" style="font-size:44px;color: rgb(9, 9, 121);padding-top: 30px;"></i></a>
         
                   <a
                   class="btn m-1"
              
                   href="#" target="_blank"
                   role="button"
-                  ><button onclick="myMobile()"><i class="fa fa-whatsapp" style="font-size:44px;color:green"></i></button>
+                  ><i onclick="myMobile()" class="fa fa-whatsapp" style="font-size:44px;color:green;padding-top: 30px;"></i>
                 </a>
             
               </section>
@@ -258,7 +262,7 @@
             </div>
         
             <div class="text-center " style="background-color: rgba(148, 8, 148, 0.993);">
-              © 2022 Copyright: <a href="https://merna1995.github.io/">Merna Makram</a> 
+              © 2022 Copyright: <a href="https://merna1995.github.io/" style="color: white;"><u>Merna Makram</u></a> 
         
             </div>
           
